@@ -40,12 +40,29 @@ body{
 .logo{
     font-weight: 600;
     color: rgb(22, 55, 5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logokanan{
+    font-weight: 600;
+    color: rgb(22, 55, 5);
+    margin-left: auto;
+    padding-left: 10px;
 }
 .side-big-heading{
-    font-weight: 800;
+    font-weight: 500;
     color: rgb(22, 55, 5);
-    font-size: 1.7rem;
-    margin: 0% 0 5%;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0%;
+}
+.side-smaller-heading{
+    font-weight: 300;
+    color: rgb(22, 55, 5);
+    font-size: 1rem;
+    text-align: center;
+    margin: 0% 0 1%;
 }
 .primary-bg-text{
     color: rgb(39, 98, 10);
@@ -55,22 +72,22 @@ body{
 a.loginbtn{
     text-decoration: none;
     color: rgb(22, 55, 5);
-    width: 25%;
-    font-weight: 200;
+    width: 30%;
+    font-weight: 140;
     display: inline-block;
-    margin: 0% 35%;
+    margin: 2% 34%;
     text-align: center;
     border: 2px solid rgb(22, 55, 5);
     border-radius: 20px;
-    padding: 1% 0;
+    padding: 1% 2% 1% 2%;
 }
 a.loginbtn:hover{
     color: rgb(144, 230, 168);
     background-color: rgb(22, 55, 5);
 }
 .big-heading{
-    font-weight: 900;
-    font-size: 2rem;
+    font-weight: 700;
+    font-size: 1.7rem;
     color: rgb(103, 220, 136);
 }
 .social-media-platform{
@@ -160,7 +177,7 @@ input[type="date"]::-webkit-calendar-picker-indicator{
     color: rgba(0, 0, 0, 0);
     opacity: 1;
     display: block;
-    background: url('bx-cake.svg') no-repeat;
+    background: url(./bx-cake.svg) no-repeat;
     height: 20px;
     width: 20px;
 }
@@ -168,9 +185,10 @@ input[type="date"]::-webkit-calendar-picker-indicator{
     content: 'First name';
     background-color: #fff;
     position: relative;
-    padding: 0 7% 0% 2%;
-    left: -150px;
-    width: 334px;
+    width: 35%;
+    height: 20px;
+    padding: 0 4% 0% 4%;
+    left: -230px;
     color: rgb(103, 220, 136);
     top: -33px;
 }
@@ -178,21 +196,21 @@ input[type="date"]::-webkit-calendar-picker-indicator{
     content: 'Last name';
     background-color: #fff;
     position: relative;
-    padding: 0 7% 0% 2%;
-    left: -160px;
-    width: 302px;
+    padding: 0 4% 0% 4%;
+    left: -230px;
+    width: 35%;
     color: rgb(103, 220, 136);
-    top: -33px;
+    top: -31px;
 }
 .text-fields.dob:after{
     content: 'Date of birth';
     background-color: #fff;
     position: relative;
-    padding: 0 7% 0% 2%;
-    left: -145px;
-    width: 342px;
+    padding: 0 2% 0% 4%;
+    left: -220px;
+    width: 43%;
     color: rgb(103, 220, 136);
-    top: -33px;
+    top: -30px;
 }
 .gender-selection{
     display: flex;
@@ -240,9 +258,9 @@ input[type="radio"]{
     content: 'Phone number';
     background-color: #fff;
     position: relative;
-    left: -120px;
-    padding-left: 7px;
-    width: 492px;
+    padding: 0 2% 0% 4%;
+    left: -220px;
+    width: 58%;
     color: rgb(103, 220, 136);
     top: -33px;
 }
@@ -250,10 +268,10 @@ input[type="radio"]{
     content: 'Email Id';
     background-color: #fff;
     position: relative;
-    left: -145px;
-    padding-left: 7px;
+    padding: 0 2% 0% 4%;
+    left: -265px;
+    width: 30%;
     text-align: left;
-    width: 388px;
     color: rgb(103, 220, 136);
     top: -33px;
 }
@@ -261,21 +279,20 @@ input[type="radio"]{
     content: 'Enter Password';
     background-color: #fff;
     position: relative;
-    left: -120px;
-    padding-left: 7px;
-    width: 541px;
+    padding: 0 2% 0% 4%;
+    left: -225px;
+    width: 58%;
     color: rgb(103, 220, 136);
     top: -33px;
 }
 .text-fields.text-fields.confirmpassword:after{
     content: 'Confirm Password';
-    width: 748px;
-    left: -95px;
-    padding-left: 7px;
+    padding: 0 2% 0% 4%;
+    left: -195px;
+    width: 80%;
 }
 
 .text1-fields.email1:after{
-
     width: 541px;
 }
 .text1-fields.password1:after{
